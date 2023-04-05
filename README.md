@@ -92,7 +92,8 @@ database를 변경해주면 됨.
 
 16)  .Foreignkey(참조하려는 필드, ~) : '참조하려는 필드'를 참조하는 외래키    
 
-* 17) Choice 클래스에 있는 하나의 question에 여러개의 choice를 갖는 구조이기 때문에 일대다 관계 (?)    
+* 17) Choice 클래스에 있는 하나의 question에 여러개의 choice를 갖는 구조이기 때문에 일대다 관계 (?)
+![image](https://user-images.githubusercontent.com/90204371/230023256-5b3edba8-8729-4221-8960-b6ea172ae089.png)
 
 18) 앱을 현재의 프로젝트에 포함시키기 위해서는 앱의 구성 클래스에 대한 참고를 INSTALLED_APPS 에 추가해야한다. ->  이 부분에서 제대로 추가(복붙)를 안해서 runserver가 실행되지 않는 오류가 났었다.. OMG  
 
